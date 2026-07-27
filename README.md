@@ -134,6 +134,18 @@ fls -r -d -o 64 flash.dd
   <img src="evidence/Screenshot%202026-07-27%20114137.png" width="900">
 </p>
 
+**Figure 5.** Recovery of `ts119a.exe` from the forensic image using the `icat` command.
+
+---
+
+## 📌 Figure 5.1 — Recovered File Listing
+
+<p align="center">
+  <img src="evidence/Screenshot%202026-07-27%20114215.png" width="900">
+</p>
+
+**Figure 5.1.** Directory listing showing the successfully recovered file `ts119a.exe` after extraction from the forensic image.
+
 ---
 
 ## 📌 Figure 6 — Deleted File Analysis
@@ -141,7 +153,8 @@ fls -r -d -o 64 flash.dd
 <p align="center">
   <img src="evidence/Screenshot%202026-07-27%20114035.png" width="900">
 </p>
----
+
+**Figure 6.** Deleted file entries identified using `fls -r -d -o 64 flash.dd`.
 
 # 📊 Key Findings
 
