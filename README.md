@@ -1,66 +1,82 @@
-# Digital Forensic Examination of a USB Flash Drive Image
+<div align="center">
 
-## Overview
+# 🔍 Digital Forensic Examination of a USB Flash Drive
+
+### A Digital Forensics Investigation Using The Sleuth Kit (TSK) on SIFT Workstation
+
+*Preserving Evidence • Recovering Digital Artifacts • Maintaining Forensic Integrity*
+
+</div>
+
+---
+
+## 📖 Project Overview
 
 This repository documents a digital forensic examination of a USB flash drive image (`flash.dd`) using **The Sleuth Kit (TSK)** on the **SANS Investigative Forensic Toolkit (SIFT) Workstation**.
 
-The objective of this examination was to analyze a forensic image while preserving the integrity of the original evidence. The investigation included image verification, partition analysis, file system identification, file enumeration, file recovery, and deleted file analysis.
+The investigation was conducted using accepted digital forensic principles to ensure the integrity of the original evidence while identifying and recovering relevant digital artifacts.
 
 ---
 
-## Objectives
+## 🎯 Investigation Objectives
 
-- Verify the forensic image.
-- Identify the partition layout.
-- Determine the file system.
-- List files stored within the image.
-- Recover a selected file.
-- Identify deleted files.
+- Verify the forensic image
+- Examine the partition layout
+- Identify the file system
+- Enumerate files within the image
+- Recover digital evidence
+- Identify deleted files
+- Document forensic findings
 
 ---
 
-## Investigation Environment
+## 🛠️ Investigation Environment
 
 | Component | Details |
 |-----------|---------|
 | Operating System | SIFT Workstation |
 | Tool Suite | The Sleuth Kit (TSK) |
-| Evidence Image | flash.dd |
+| Evidence Image | `flash.dd` |
+| Partition Table | DOS (MBR) |
 | File System | FAT32 |
-| Partition Type | DOS (MBR) |
-| Start Sector | 64 |
+| Volume Label | OTG ORG |
+| Offset | 64 |
 
 ---
 
-## Tools Used
+# 🔬 Investigation Workflow
 
-- SIFT Workstation
-- The Sleuth Kit (TSK)
-- Linux Terminal
-- img_stat
-- mmls
-- fsstat
-- fls
-- icat
+```text
+USB Flash Drive
+        │
+        ▼
+Forensic Image Acquisition
+        │
+        ▼
+Image Verification
+        │
+        ▼
+Partition Analysis
+        │
+        ▼
+File System Identification
+        │
+        ▼
+File Enumeration
+        │
+        ▼
+Evidence Recovery
+        │
+        ▼
+Deleted File Analysis
+        │
+        ▼
+Digital Forensic Findings
+```
 
 ---
 
-## Methodology
-
-The forensic examination followed these stages:
-
-1. Image Verification
-2. Partition Identification
-3. File System Analysis
-4. File Enumeration
-5. File Recovery
-6. Deleted File Analysis
-
-The analysis was conducted on the forensic image instead of the original USB device to maintain evidence integrity.
-
----
-
-# Commands Used
+# 💻 Commands Executed
 
 ```bash
 img_stat flash.dd
@@ -78,83 +94,112 @@ fls -r -d -o 64 flash.dd
 
 ---
 
-# Evidence
+# 📂 Digital Evidence
 
-## Figure 1 – Image Verification
+## 📌 Figure 1 — Image Verification
 
-![img_stat](evidence/01_img_stat.png)
-
----
-
-## Figure 2 – Partition Analysis
-
-![mmls](evidence/02_mmls.png)
+![Image Verification](evidence/01_img_stat.png)
 
 ---
 
-## Figure 3 – File System Analysis
+## 📌 Figure 2 — Partition Analysis
 
-![fsstat](evidence/03_fsstat.png)
-
----
-
-## Figure 4 – File Listing
-
-![fls](evidence/04_fls.png)
+![Partition Analysis](evidence/02_mmls.png)
 
 ---
 
-## Figure 5 – File Recovery
+## 📌 Figure 3 — File System Analysis
 
-![icat](evidence/05_icat.png)
-
----
-
-## Figure 6 – Deleted File Analysis
-
-![deleted files](evidence/06_deleted_files.png)
+![File System Analysis](evidence/03_fsstat.png)
 
 ---
 
-## Key Findings
+## 📌 Figure 4 — File Enumeration
 
-| Finding | Result |
-|----------|--------|
-| Image Format | Raw (.dd) |
+![File Listing](evidence/04_fls.png)
+
+---
+
+## 📌 Figure 5 — File Recovery
+
+![Recovered File](evidence/05_icat.png)
+
+---
+
+## 📌 Figure 6 — Deleted File Analysis
+
+![Deleted Files](evidence/06_deleted_files.png)
+
+---
+
+# 📊 Key Findings
+
+| Examination Item | Result |
+|------------------|--------|
+| Image Type | Raw (.dd) |
 | Partition Table | DOS (MBR) |
+| Partition Offset | 64 |
 | File System | FAT32 |
 | Volume Label | OTG ORG |
-| Start Sector | 64 |
 | Recovered File | ts119a.exe |
+| Deleted Files | Successfully Identified |
 
 ---
 
-## Repository Structure
+# 📁 Repository Structure
 
 ```text
-digital-forensic-usb-examination
-│── README.md
+digital-forensic-usb-examination/
 │
-├── report
+├── README.md
+│
+├── report/
 │   └── Digital_Forensic_Examination_Report.pdf
 │
-├── evidence
+├── evidence/
 │   ├── 01_img_stat.png
 │   ├── 02_mmls.png
 │   ├── 03_fsstat.png
 │   ├── 04_fls.png
 │   ├── 05_icat.png
 │   └── 06_deleted_files.png
+│
+└── assets/
 ```
 
 ---
 
-## Conclusion
+# 🧠 Skills Demonstrated
 
-The forensic examination successfully verified the forensic image, identified the partition layout and FAT32 file system, enumerated stored files, recovered a selected executable file, and identified deleted file entries. The investigation demonstrates the practical application of The Sleuth Kit (TSK) for digital forensic analysis while maintaining the integrity of digital evidence.
+- Digital Forensic Investigation
+- Evidence Preservation
+- USB Storage Device Analysis
+- FAT32 File System Analysis
+- Deleted File Identification
+- File Recovery
+- Linux Command Line
+- The Sleuth Kit (TSK)
+- SIFT Workstation
+- Technical Report Writing
 
 ---
 
-## Disclaimer
+# ✅ Conclusion
 
-This repository was created for educational and laboratory purposes. All analysis was conducted on a forensic image within a controlled environment.
+This project demonstrates a structured digital forensic examination of a USB flash drive image using industry-standard forensic tools and methodology. The investigation verified the forensic image, analyzed the partition structure and FAT32 file system, identified stored files, recovered digital evidence, and examined deleted file artifacts while preserving the integrity of the original evidence.
+
+---
+
+# 📌 Disclaimer
+
+This repository was created for educational and laboratory purposes. All analysis was performed on a forensic image in a controlled environment. The repository is intended to demonstrate digital forensic techniques and documentation practices.
+
+---
+
+<div align="center">
+
+### ⭐ Thank you for visiting this repository.
+
+**Feedback and suggestions are always welcome.**
+
+</div>
