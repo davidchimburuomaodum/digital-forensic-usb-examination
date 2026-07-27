@@ -170,7 +170,8 @@ fls -r -d -o 64 flash.dd
 
 ---
 
-# 📁 Repository Structure
+
+```## 📁 Repository Structure
 
 ```text
 digital-forensic-usb-examination/
@@ -180,15 +181,14 @@ digital-forensic-usb-examination/
 ├── report/
 │   └── Digital_Forensic_Examination_Report.pdf
 │
-├── evidence/
-│   ├── 01_img_stat.png
-│   ├── 02_mmls.png
-│   ├── 03_fsstat.png
-│   ├── 04_fls.png
-│   ├── 05_icat.png
-│   └── 06_deleted_files.png
-│
-└── assets/
+└── evidence/
+    ├── Screenshot 2026-07-27 114255.png
+    ├── Screenshot 2026-07-27 113557.png
+    ├── Screenshot 2026-07-27 113746.png
+    ├── Screenshot 2026-07-27 113909.png
+    ├── Screenshot 2026-07-27 114137.png
+    ├── Screenshot 2026-07-27 114215.png
+    └── Screenshot 2026-07-27 114035.png
 ```
 
 ---
