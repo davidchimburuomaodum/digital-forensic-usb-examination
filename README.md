@@ -96,39 +96,44 @@ fls -r -d -o 64 flash.dd
 
 # 📂 Digital Evidence
 
-## 📌 Figure 1 — Image Verification
 
-![Image Verification](evidence/01_img_stat.png)
+<p align="center">
+  <img src="evidence/01_img_stat.png" width="900">
+</p>
 
----
-
-## 📌 Figure 2 — Partition Analysis
-
-![Partition Analysis](evidence/02_mmls.png)
+<p align="center"><b>Figure 1.</b> Output of <code>img_stat flash.dd</code>.</p>
 
 ---
 
-## 📌 Figure 3 — File System Analysis
+<p align="center">
+  <img src="evidence/02_mmls.png" width="900">
+</p>
 
-![File System Analysis](evidence/03_fsstat.png)
-
----
-
-## 📌 Figure 4 — File Enumeration
-
-![File Listing](evidence/04_fls.png)
+<p align="center"><b>Figure 2.</b> Output of <code>mmls flash.dd</code>.</p>
 
 ---
 
-## 📌 Figure 5 — File Recovery
-
-![Recovered File](evidence/05_icat.png)
+<p align="center">
+  <img src="evidence/03_fsstat.png" width="900">
+</p>
 
 ---
 
-## 📌 Figure 6 — Deleted File Analysis
+<p align="center">
+  <img src="evidence/04_fls.png" width="900">
+</p>
 
-![Deleted Files](evidence/06_deleted_files.png)
+---
+
+<p align="center">
+  <img src="evidence/05_icat.png" width="900">
+</p>
+
+---
+
+<p align="center">
+  <img src="evidence/06_deleted_files.png" width="900">
+</p>
 
 ---
 
