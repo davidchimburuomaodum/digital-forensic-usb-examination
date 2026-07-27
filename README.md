@@ -96,45 +96,51 @@ fls -r -d -o 64 flash.dd
 
 # 📂 Digital Evidence
 
+## 📌 Figure 1 — Image Verification
 
 <p align="center">
-  <img src="evidence/01_img_stat.png" width="900">
-</p>
-
-<p align="center"><b>Figure 1.</b> Output of <code>img_stat flash.dd</code>.</p>
-
----
-
-<p align="center">
-  <img src="evidence/02_mmls.png" width="900">
-</p>
-
-<p align="center"><b>Figure 2.</b> Output of <code>mmls flash.dd</code>.</p>
-
----
-
-<p align="center">
-  <img src="evidence/03_fsstat.png" width="900">
+  <img src="evidence/Screenshot%202026-07-27%20114255.png" width="900">
 </p>
 
 ---
 
+## 📌 Figure 2 — Partition Analysis
+
 <p align="center">
-  <img src="evidence/04_fls.png" width="900">
+  <img src="evidence/Screenshot%202026-07-27%20113557.png" width="900">
 </p>
 
 ---
 
+## 📌 Figure 3 — File System Analysis
+
 <p align="center">
-  <img src="evidence/05_icat.png" width="900">
+  <img src="evidence/Screenshot%202026-07-27%20113746.png" width="900">
 </p>
 
 ---
 
+## 📌 Figure 4 — File Enumeration
+
 <p align="center">
-  <img src="evidence/06_deleted_files.png" width="900">
+  <img src="evidence/Screenshot%202026-07-27%20113909.png" width="900">
 </p>
 
+---
+
+## 📌 Figure 5 — Evidence Recovery
+
+<p align="center">
+  <img src="evidence/Screenshot%202026-07-27%20114137.png" width="900">
+</p>
+
+---
+
+## 📌 Figure 6 — Deleted File Analysis
+
+<p align="center">
+  <img src="evidence/Screenshot%202026-07-27%20114035.png" width="900">
+</p>
 ---
 
 # 📊 Key Findings
