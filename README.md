@@ -41,22 +41,37 @@ The investigation was conducted using accepted digital forensic principles to en
 
 
 
-#  Repository Structure
 
+# Repository Structure
+
+```
 digital-forensic-usb-examination/
 │
 ├── README.md
+│
 ├── report/
 │   └── Digital_Forensic_USB_Examination_Report.pdf
 │
-├── evidence/
-│   ├── Screenshot 2026-07-27 114255.png   (Image Verification)
-│   ├── Screenshot 2026-07-27 113557.png   (Partition Analysis)
-│   ├── Screenshot 2026-07-27 113746.png   (File System Analysis)
-│   ├── Screenshot 2026-07-27 113909.png   (File Enumeration)
-│   ├── Screenshot 2026-07-27 114137.png   (Evidence Recovery)
-│   ├── Screenshot 2026-07-27 114215.png   (Recovered File Listing)
-│   └── Screenshot 2026-07-27 114035.png   (Deleted File Analysis)
+├── 01-Forensic-Image-Verification/
+│   └── img_stat.png
+│
+├── 02-Partition-Table-Analysis/
+│   └── mmls.png
+│
+├── 03-File-System-Information/
+│   └── fsstat.png
+│
+├── 04-File-Enumeration/
+│   └── fls.png
+│
+├── 05-Recovered-File-Extraction/
+│   ├── icat.png
+│   └── recovered_file.png
+│
+└── 06-Deleted-File-Investigation/
+    └── deleted_files.png
+```
+
 
 
 #  Commands Executed
@@ -191,7 +206,7 @@ This repository was created for educational and laboratory purposes only. All fo
 
 <div align="center">
 
-### ⭐ Thank you for visiting this repository!
+### Thank you for visiting this repository!
 
 If you found this project useful, consider giving it a ⭐ on GitHub.
 
