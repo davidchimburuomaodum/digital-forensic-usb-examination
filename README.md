@@ -1,13 +1,12 @@
-<div align="center">
-
 # Digital Forensic Examination of a USB Flash Drive
 
 ### A Digital Forensics Investigation Using The Sleuth Kit (TSK) on SIFT Workstation
 
-*Preserving Evidence • Recovering Digital Artifacts • Maintaining Forensic Integrity*
-
-</div>
-
+![Linux](https://img.shields.io/badge/Linux-SIFT_Workstation-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![TSK](https://img.shields.io/badge/The_Sleuth_Kit-Forensics-0052CC?style=for-the-badge)
+![File System](https://img.shields.io/badge/File_System-FAT32-2EA44F?style=for-the-badge)
+![Image Type](https://img.shields.io/badge/Image-Raw_.dd-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
 
 ## Project Overview
 
