@@ -41,34 +41,22 @@ The investigation was conducted using accepted digital forensic principles to en
 
 
 
-# Investigation Workflow
+#  Repository Structure
 
-
-USB Flash Drive
-        │
-        ▼
-Forensic Image Acquisition
-        │
-        ▼
-Image Verification
-        │
-        ▼
-Partition Analysis
-        │
-        ▼
-File System Identification
-        │
-        ▼
-File Enumeration
-        │
-        ▼
-Evidence Recovery
-        │
-        ▼
-Deleted File Analysis
-        │
-        ▼
-Digital Forensic Findings
+digital-forensic-usb-examination/
+│
+├── README.md
+├── report/
+│   └── Digital_Forensic_USB_Examination_Report.pdf
+│
+├── evidence/
+│   ├── Screenshot 2026-07-27 114255.png   (Image Verification)
+│   ├── Screenshot 2026-07-27 113557.png   (Partition Analysis)
+│   ├── Screenshot 2026-07-27 113746.png   (File System Analysis)
+│   ├── Screenshot 2026-07-27 113909.png   (File Enumeration)
+│   ├── Screenshot 2026-07-27 114137.png   (Evidence Recovery)
+│   ├── Screenshot 2026-07-27 114215.png   (Recovered File Listing)
+│   └── Screenshot 2026-07-27 114035.png   (Deleted File Analysis)
 
 
 #  Commands Executed
