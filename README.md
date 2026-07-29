@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🔍 Digital Forensic Examination of a USB Flash Drive
+# Digital Forensic Examination of a USB Flash Drive
 
 ### A Digital Forensics Investigation Using The Sleuth Kit (TSK) on SIFT Workstation
 
@@ -10,7 +10,7 @@
 
 ---
 
-## 📖 Project Overview
+## Project Overview
 
 This repository documents a digital forensic examination of a USB flash drive image (`flash.dd`) using **The Sleuth Kit (TSK)** on the **SANS Investigative Forensic Toolkit (SIFT) Workstation**.
 
@@ -18,7 +18,7 @@ The investigation was conducted using accepted digital forensic principles to en
 
 ---
 
-## 🎯 Investigation Objectives
+## Investigation Objectives
 
 - Verify the forensic image
 - Examine the partition layout
@@ -30,7 +30,7 @@ The investigation was conducted using accepted digital forensic principles to en
 
 ---
 
-## 🛠️ Investigation Environment
+## Investigation Environment
 
 | Component | Details |
 |-----------|---------|
@@ -44,7 +44,7 @@ The investigation was conducted using accepted digital forensic principles to en
 
 ---
 
-# 🔬 Investigation Workflow
+# Investigation Workflow
 
 ```text
 USB Flash Drive
@@ -76,9 +76,9 @@ Digital Forensic Findings
 
 ---
 
-# 💻 Commands Executed
+#  Commands Executed
 
-```bash
+bash
 img_stat flash.dd
 
 mmls flash.dd
@@ -94,9 +94,9 @@ fls -r -d -o 64 flash.dd
 
 ---
 
-# 📂 Digital Evidence
+#  Digital Evidence
 
-## 📌 Figure 1 — Image Verification
+## Figure 1 — Image Verification
 
 <p align="center">
   <img src="evidence/Screenshot%202026-07-27%20114255.png" width="900">
@@ -104,7 +104,7 @@ fls -r -d -o 64 flash.dd
 
 ---
 
-## 📌 Figure 2 — Partition Analysis
+## Figure 2 — Partition Analysis
 
 <p align="center">
   <img src="evidence/Screenshot%202026-07-27%20113557.png" width="900">
@@ -112,7 +112,7 @@ fls -r -d -o 64 flash.dd
 
 ---
 
-## 📌 Figure 3 — File System Analysis
+## Figure 3 — File System Analysis
 
 <p align="center">
   <img src="evidence/Screenshot%202026-07-27%20113746.png" width="900">
@@ -120,7 +120,7 @@ fls -r -d -o 64 flash.dd
 
 ---
 
-## 📌 Figure 4 — File Enumeration
+## Figure 4 — File Enumeration
 
 <p align="center">
   <img src="evidence/Screenshot%202026-07-27%20113909.png" width="900">
@@ -128,7 +128,7 @@ fls -r -d -o 64 flash.dd
 
 ---
 
-## 📌 Figure 5 — Evidence Recovery
+## Figure 5 — Evidence Recovery
 
 <p align="center">
   <img src="evidence/Screenshot%202026-07-27%20114137.png" width="900">
@@ -138,7 +138,7 @@ fls -r -d -o 64 flash.dd
 
 ---
 
-## 📌 Figure 5.1 — Recovered File Listing
+## Figure 5.1 — Recovered File Listing
 
 <p align="center">
   <img src="evidence/Screenshot%202026-07-27%20114215.png" width="900">
@@ -148,7 +148,7 @@ fls -r -d -o 64 flash.dd
 
 ---
 
-## 📌 Figure 6 — Deleted File Analysis
+## Figure 6 — Deleted File Analysis
 
 <p align="center">
   <img src="evidence/Screenshot%202026-07-27%20114035.png" width="900">
@@ -156,7 +156,7 @@ fls -r -d -o 64 flash.dd
 
 **Figure 6.** Deleted file entries identified using `fls -r -d -o 64 flash.dd`.
 
-# 📊 Key Findings
+# Key Findings
 
 | Examination Item | Result |
 |------------------|--------|
@@ -171,9 +171,9 @@ fls -r -d -o 64 flash.dd
 ---
 
 
-```## 📁 Repository Structure
+## Repository Structure
 
-```text
+
 digital-forensic-usb-examination/
 │
 ├── README.md
@@ -193,7 +193,7 @@ digital-forensic-usb-examination/
 
 ---
 
-# 🧠 Skills Demonstrated
+#  Skills Demonstrated
 
 - Digital Forensic Investigation
 - Evidence Preservation
@@ -208,13 +208,13 @@ digital-forensic-usb-examination/
 
 ---
 
-# ✅ Conclusion
+# Conclusion
 
 This project demonstrates a structured digital forensic examination of a USB flash drive image using industry-standard forensic tools and methodology. The investigation verified the forensic image, analyzed the partition structure and FAT32 file system, identified stored files, recovered digital evidence, and examined deleted file artifacts while preserving the integrity of the original evidence.
 
 ---
 
-# 📌 Disclaimer
+#  Disclaimer
 
 This repository was created for educational and laboratory purposes. All analysis was performed on a forensic image in a controlled environment. The repository is intended to demonstrate digital forensic techniques and documentation practices.
 
@@ -222,7 +222,7 @@ This repository was created for educational and laboratory purposes. All analysi
 
 <div align="center">
 
-### ⭐ Thank you for visiting this repository.
+### Thank you for visiting this repository.
 
 **Feedback and suggestions are always welcome.**
 
